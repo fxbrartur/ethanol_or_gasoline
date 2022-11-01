@@ -3,6 +3,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://verve.jfrog.io/artifactory/verve-gradle-release' }
     }
 
     dependencies {
@@ -15,6 +16,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://verve.jfrog.io/artifactory/verve-gradle-release' }
     }
 }
 
